@@ -30,14 +30,15 @@ const Header = ({ siteTitle }) => (
       stefanshepko@gmail.com
       </h5>
       <h5>
-        <i href="https://github.com/Stefunga" style={{margin:`auto`}} class="fa fa-github fa-2x"></i>
-        <i href="https://www.linkedin.com/in/stefan-shepko-hamilton/" style={{margin:`auto`}} class="fa fa-linkedin fa-2x"></i>
+        <a href="https://github.com/Stefunga" style={{margin:`auto`}} class="fa fa-github fa-2x"></a>
+        <a href="https://www.linkedin.com/in/stefan-shepko-hamilton/" style={{margin:`auto`}} class="fa fa-linkedin fa-2x"></a>
       </h5>
     </div>
     <div>
     <a href="#About" style={{ margin:30}}>  About  </a>
     <a href="#Education" style={{ margin:30}}>  Education  </a>
     <a href="#Projects" style={{ margin:30}}>  Projects  </a>
+    <a href="#Experience" style={{ margin:30}}>  Experience  </a>
     </div>
   </header>
 )
