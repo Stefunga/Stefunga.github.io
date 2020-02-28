@@ -6,10 +6,15 @@ import Image from "../components/profile_pic.js"
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `#ba4c00`,
+      position: 'relative',
       marginBottom: `1.45rem`,
     }}
   >
+    <div style={{position: 'absolute'}}>
+      <div style={{ maxWidth: `250px`, margin: `auto`}}>
+        <Image />
+      </div>
+    </div>
     <div
       style={{
         margin: `0 auto`,
@@ -17,9 +22,6 @@ const Header = ({ siteTitle }) => (
         padding: `0rem`,
       }}
     >
-    <div style={{ maxWidth: `250px`, margin: `auto`}}>
-      <Image />
-    </div>
       <h1 style={{ margin: 0 }}>
         Stefan Shepko-Hamilton
       </h1>
