@@ -42,6 +42,7 @@ const Header = ({ siteTitle }) => (
     <a href="#Projects" style={{ margin:30}}>  Projects  </a>
     <a href="#Experience" style={{ margin:30}}>  Experience  </a>
     </div>
+    <div style={{paddingBottom:100}}></div>
   </header>
 )
 
